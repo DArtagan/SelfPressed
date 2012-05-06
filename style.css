@@ -9,11 +9,20 @@ Template: roots
 
 html, body {
   height: 100%;
+  margin: 0px;
+  padding: 0px;
   width: 100%;
 }
 
 header {
   float: left;
+  margin-top: 150px;
+  position: fixed;
+  width: 225px;
+}
+
+header div.navbar-inner {
+  border-radius: 0px;
 }
 
 #nav-main ul {
@@ -22,6 +31,10 @@ header {
 
 #nav-main li {
   float: none;
+}
+
+#wrap {
+  margin-left: 275px;
 }
 
 body.page #sidebar {
