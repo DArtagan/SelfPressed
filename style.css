@@ -7,3 +7,15 @@ Author URI: http://worldwidewilly.net
 Template: roots
 */
 
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#nav-main ul {
+  width: 100%;
+}
+
+#nav-main li {
+  float: none;
+}
