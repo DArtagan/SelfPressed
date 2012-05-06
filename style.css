@@ -35,6 +35,7 @@ header div.navbar-inner {
 
 #wrap {
   margin-left: 275px;
+  width: auto;
 }
 
 body.page #sidebar {
