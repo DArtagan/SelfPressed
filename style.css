@@ -12,10 +12,18 @@ html, body {
   width: 100%;
 }
 
+header {
+  float: left;
+}
+
 #nav-main ul {
   width: 100%;
 }
 
 #nav-main li {
   float: none;
+}
+
+body.page #sidebar {
+  display: none;
 }
