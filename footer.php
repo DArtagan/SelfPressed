@@ -1,3 +1,4 @@
+    <div class="push"></div>
   </div><!-- /#wrap -->
 
   <?php roots_footer_before(); ?>
@@ -10,6 +11,5 @@
 
   <?php wp_footer(); ?>
   <?php roots_footer(); ?>
-</div> <!-- Closing superWrap -->
 </body>
 </html>
