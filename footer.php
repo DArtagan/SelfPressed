@@ -1,4 +1,4 @@
-
+    <div class="push"></div>
   </div><!-- /#wrap -->
 
   <?php roots_footer_before(); ?>
