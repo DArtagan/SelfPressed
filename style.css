@@ -37,7 +37,7 @@ header div.navbar-inner {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0px 0px -50px  275px;
+  margin: 0px 0px -167px  275px;
   width: auto;
 }
 
@@ -45,6 +45,10 @@ body.page #sidebar {
   display: none;
 }
 
-footer, .push {
+.push {
+  height: 150px;
+}
+
+footer {
   height: 50px;
 }
