@@ -6,6 +6,6 @@ $(function() {
     } else {
       $("#wrap").addClass("wrap-collapse");
     }
-    $.delay(1000);
+//    $.delay(1000);
   });
 });
