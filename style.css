@@ -56,10 +56,15 @@ header div.navbar-inner {
 
 #content {
   -moz-transition: all 0.8s ease-in-out 0s;
+  width: 100%;
 }
 
 .wrap-collapse #content {
   margin-left: -200%;
+}
+
+#wrap > div.row:before, #wrap > div.row:after {
+  display: inline
 }
 
 body.page #sidebar {
