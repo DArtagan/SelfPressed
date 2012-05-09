@@ -24,14 +24,14 @@ html, body {
   width: 30px;
 }
 
-header {
+#banner {
   float: left;
   top: 10%;
   position: fixed;
   width: 225px;
 }
 
-header div.navbar-inner {
+#banner div.navbar-inner {
   background-image: none;
   border-bottom: 3px solid #EF5F00;
   border-radius: 0px;
@@ -56,7 +56,7 @@ header div.navbar-inner {
   position: relative;
 }
 
-#nav-main li.active ul.dropdown-menui:before {
+#nav-main li.active ul.dropdown-menu:before {
   display:none;
 }
 
