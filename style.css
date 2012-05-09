@@ -33,6 +33,7 @@ header {
 
 header div.navbar-inner {
   background-image: none;
+  border-bottom: 3px solid #EF5F00;
   border-radius: 0px;
   box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
   margin-left: 30px;
@@ -45,6 +46,22 @@ header div.navbar-inner {
 
 #nav-main li {
   float: none;
+}
+
+#nav-main li.active ul.dropdown-menu {
+  border-radius: 0px;
+  float: none;
+  display: block;
+  margin-left: 5px;
+  positon: relative;
+}
+
+#nav-main li.active ul.dropdown-menui:before {
+  display:none;
+}
+
+#nav-main li.active ul.dropdown-menu:after {
+  display:none;
 }
 
 #wrap {
