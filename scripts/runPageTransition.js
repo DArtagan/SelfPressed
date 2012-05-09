@@ -7,7 +7,6 @@ $(function() {
     } else {
       $("#wrap").addClass("wrap-collapse");
     }
-    $.delay(1000);
     window.location = tempHref;
   });
 });
