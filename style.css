@@ -54,6 +54,14 @@ header div.navbar-inner {
   width: auto;
 }
 
+#content {
+  -moz-transition: all 0.8s ease-in-out 0s;
+}
+
+.wrap-collapse #content {
+  margin-left: -200%;
+}
+
 body.page #sidebar {
   display: none;
 }

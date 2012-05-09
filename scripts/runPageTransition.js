@@ -1,9 +1,8 @@
-$(document.ready(function() {
-  $("#menu-primary-navigation > li > a").each(function() {
-    var tempHref = $(this).getAttribute('href');
-    $(this).setAttribute('href', '#');
-    $(this).onclick(function() {
-      $("#wrap").toggleClass("wrap-collapse");
-    });
-  });
+$("#menu-primary-navigation > li > a").click(function() {
+  var tempHref = this.getAttribute('href');
+  if($('#wrap').hasClass('wrap-collapse')) {
+    $("#wrap").removeClass('wrap-collapse');
+  } else {
+    $("#wrap").addClass("wrap-collapse");
+  }
 });
