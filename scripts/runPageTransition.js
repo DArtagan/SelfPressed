@@ -1,5 +1,5 @@
 $(function() {
-  $("#menu-primary-navigation > li > a").click(function() {
+  $("header #nav-main li > a").click(function() {
     var tempHref = this.getAttribute('href');
     if($('#wrap').hasClass('wrap-collapse')) {
       $("#wrap").removeClass('wrap-collapse');
