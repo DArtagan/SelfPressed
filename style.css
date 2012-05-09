@@ -46,6 +46,8 @@ html, body {
 
 #nav-main li {
   float: none;
+  margin-left: -10px;
+  padding-left: 10px;
 }
 
 #nav-main li.active ul.dropdown-menu {
