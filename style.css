@@ -53,7 +53,7 @@ header div.navbar-inner {
   float: none;
   display: block;
   margin-left: 5px;
-  positon: relative;
+  position: relative;
 }
 
 #nav-main li.active ul.dropdown-menui:before {
