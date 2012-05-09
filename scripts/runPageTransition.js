@@ -8,6 +8,6 @@ $(function() {
       $("#wrap").addClass("wrap-collapse");
     }
     $.delay(1000);
-    document.location = tempHref;
+    document.location.href = tempHref;
   });
 });
