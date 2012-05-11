@@ -90,6 +90,14 @@ html, body {
   display: inline
 }
 
+#main {
+  float: left;
+}
+
+#sidebar {
+  margin-top: 85px;
+}
+
 body.page #sidebar {
   display: none;
 }
