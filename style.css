@@ -48,6 +48,7 @@ html.lt-ie9 #pageBackground {
 #banner {
   float: left;
   top: 20%;
+  left: 0px;
   position: fixed;
   width: 225px;
 }
@@ -80,6 +81,7 @@ html.lt-ie9 #pageBackground {
   display: block;
   margin-left: 5px;
   position: relative;
+  top: 0px;
 }
 
 #nav-main li.active ul.dropdown-menu:before {
