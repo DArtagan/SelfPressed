@@ -93,6 +93,8 @@ html.lt-ie9 #pageBackground {
 }
 
 #superWrap {
+  min-height: 100%;
+  height: auto !important;
   height: 100%;
   margin-bottom: -150px;
   width: 100%;
