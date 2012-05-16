@@ -91,16 +91,14 @@ html.lt-ie9 #pageBackground {
 }
 
 #superWrap {
-  min-height: 100%;
-  height: auto !important;
   height: 100%;
   margin-bottom: -150px;
   width: auto;
 }
 
 #wrap {
-  margin-left: 275px;
-  width: 100%;
+  margin: 0px 50px 0px 275px;
+  width: auto;
 }
 
 #content {
