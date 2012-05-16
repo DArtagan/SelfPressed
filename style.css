@@ -22,6 +22,7 @@ html, body {
   background-size: cover;
   position: fixed;
   width: 100%;
+  z-index: -10;
 }
 
 html.lt-ie9 #pageBackground {
@@ -38,9 +39,15 @@ html.lt-ie9 #pageBackground {
   width: 30px;
 }
 
+#top-banner {
+  height: 25%;
+  width: 100%;
+  display: none;
+}
+
 #banner {
   float: left;
-  top: 10%;
+  top: 20%;
   position: fixed;
   width: 225px;
 }
@@ -83,12 +90,17 @@ html.lt-ie9 #pageBackground {
   display:none;
 }
 
-#wrap {
+#superWrap {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0px 0px -167px  275px;
+  margin-bottom: -150px;
   width: auto;
+}
+
+#wrap {
+  margin-left: 275px;
+  width: 100%;
 }
 
 #content {
@@ -106,6 +118,7 @@ html.lt-ie9 #pageBackground {
 
 #main {
   float: left;
+  padding-top: 20px;
 }
 
 #sidebar {

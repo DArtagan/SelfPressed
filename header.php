@@ -26,6 +26,7 @@
   <div id="pageBackground"></div>
   <div id="leftRule"></div>
   <div id="superWrap">
+    <div id="topBanner"></div>
     <?php roots_header_before(); ?>
       <header id="banner" class="navbar" role="banner">
         <?php roots_header_inside(); ?>
