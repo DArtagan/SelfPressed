@@ -23,22 +23,24 @@
 
 <body <?php body_class(roots_body_class()); ?>>
   <!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <div id="pageBackground"><img src="#" /></div>
   <div id="leftRule"></div>
-  <?php roots_header_before(); ?>
-    <header id="banner" class="navbar" role="banner">
-      <?php roots_header_inside(); ?>
-      <div class="navbar-inner">
-        <div class="<?php echo WRAP_CLASSES; ?>">
-          <a class="brand" href="<?php echo home_url(); ?>/">
-            <?php bloginfo('name'); ?>
-          </a>
-          <nav id="nav-main" role="navigation">
-            <?php wp_nav_menu(array('theme_location' => 'primary_navigation', 'walker' => new Roots_Navbar_Nav_Walker(), 'menu_class' => 'nav')); ?>
-          </nav>
+  <div id="superWrap">
+    <?php roots_header_before(); ?>
+      <header id="banner" class="navbar" role="banner">
+        <?php roots_header_inside(); ?>
+        <div class="navbar-inner">
+          <div class="<?php echo WRAP_CLASSES; ?>">
+            <a class="brand" href="<?php echo home_url(); ?>/">
+              <?php bloginfo('name'); ?>
+            </a>
+            <nav id="nav-main" role="navigation">
+              <?php wp_nav_menu(array('theme_location' => 'primary_navigation', 'walker' => new Roots_Navbar_Nav_Walker(), 'menu_class' => 'nav')); ?>
+            </nav>
+          </div>
         </div>
-      </div>
-    </header>
-  <?php roots_header_after(); ?>
+      </header>
+    <?php roots_header_after(); ?>
 
-  <?php roots_wrap_before(); ?>
-  <div id="wrap" class="<?php echo WRAP_CLASSES; ?>" role="document">
+    <?php roots_wrap_before(); ?>
+    <div id="wrap" class="<?php echo WRAP_CLASSES; ?>" role="document">
