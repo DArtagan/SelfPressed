@@ -15,10 +15,13 @@ html, body {
 }
 
 #pageBackground {
+  height: 100%;
   background-attachment: fixed;
   background-position: center center;
   background-repeat: none;
   background-size: cover;
+  position: fixed;
+  width: 100%;
 }
 
 html.lt-ie9 #pageBackground {

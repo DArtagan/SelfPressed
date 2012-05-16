@@ -23,7 +23,7 @@
 
 <body <?php body_class(roots_body_class()); ?>>
   <!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-  <div id="pageBackground"><img src="#" /></div>
+  <div id="pageBackground"></div>
   <div id="leftRule"></div>
   <div id="superWrap">
     <?php roots_header_before(); ?>
