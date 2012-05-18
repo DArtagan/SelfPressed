@@ -8,21 +8,21 @@
 
   <title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <?php if (current_theme_supports('bootstrap-responsive')) { ?><meta name="viewport" content="width=device-width, initial-scale=1.0"><?php } ?>
 
   <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/modernizr-2.5.3.min.js"></script>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="<?php echo get_template_directory_uri(); ?>/js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
-    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/runPageTransition.js"></script>
+  <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/runPageTransition.js"></script>
 
   <?php roots_head(); ?>
   <?php wp_head(); ?>
 
 </head>
 
-<body <?php body_class(roots_body_class()); ?>>
-  <!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+<body <?php body_class(); ?>>
+  <!--[if lt IE 7]><div class="alert">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</div><![endif]-->
   <div id="pageBackground"></div>
   <div id="leftRule"></div>
   <div id="superWrap">
