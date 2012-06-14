@@ -1,10 +1,18 @@
 <?php
- 
-  define('MAIN_CLASSES', "test1");
 
-  /***************
+/*
+* Custom Backgrounds
+*/
+  $defaults = array(
+    'default-color'          => 'ffffff',
+  );
+  add_theme_support( 'custom-background', $defaults );
+
+
+
+/***************
   RUN after parent functions.php
-  ***************/
+***************/
   function dandr_post_parent_setup() {
     /*
     * Unregister sidebar for pages
