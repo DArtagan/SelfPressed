@@ -11,19 +11,17 @@
 /*
 * Theme color support
 */
-  $wp_customize->add_section( 'SelfPressed_color_scheme', array(
-    'title' => __( 'Color Scheme', 'SelfPressed' ),
-    'priority' => 35,
-  ) );
-
-  $wp_customize->add_setting( 'SelfPressed_theme_options[color_scheme]', array(
-    'default'        => '',
-    'type'           => 'option',
-    'capability'     => 'edit_theme_options',
-  ) );
-
   function SelfPressed_customize_register($wp_customize) {
-    
+    $wp_customize->add_section( 'SelfPressed_color_scheme', array(
+      'title' => __( 'Color Scheme', 'SelfPressed' ),
+      'priority' => 35,
+    ) );
+
+    $wp_customize->add_setting( 'SelfPressed_theme_options[color_scheme]', array(
+      'default'        => '00A5C0',
+      'type'           => 'option',
+      'capability'     => 'edit_theme_options',
+    ) );
   }
   add_action( 'customize_register', 'themename_customize_register' );
 
