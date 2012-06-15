@@ -40,8 +40,6 @@ function themename_customize_register($wp_customize) {
     * Unregister sidebar for pages
     */
       unregister_sidebar( 'Sidebar' );
-
-      define('MAIN_CLASSES', 'test2');
   }
   add_action( 'after_setup_theme', 'dandr_post_parent_setup', 11);
 ?>
