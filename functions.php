@@ -22,10 +22,6 @@
     'capability'     => 'edit_theme_options',
   ) );
 
-
-function themename_customize_register($wp_customize) {
-  // ... do stuff ...
-
   function SelfPressed_customize_register($wp_customize) {
     
   }
