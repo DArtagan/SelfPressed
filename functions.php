@@ -39,7 +39,7 @@ function themename_customize_register($wp_customize) {
     /*
     * Unregister sidebar for pages
     */
-      unregister_sidebar( 'Sidebar' );a
+      unregister_sidebar( 'Sidebar' );
 
       define('MAIN_CLASSES', 'test2');
   }
