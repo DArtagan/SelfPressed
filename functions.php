@@ -18,10 +18,17 @@
     ) );
 
     $wp_customize->add_setting( 'SelfPressed_theme_options[color_scheme]', array(
-      'default'        => '00A5C0',
-      'type'           => 'option',
-      'capability'     => 'edit_theme_options',
+      'default' => '00A5C0',
+      'type' => 'option',
+      'capability' => 'edit_theme_options',
     ) );
+
+    $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'highlight_color', array(
+      'label' => __( 'Highlight Color', 'SelfPressed' ),
+      'section' => 'SelfPressed_color_scheme',
+      'settings' => 'SelfPressed_theme_options[highlight_color]',
+    ) ) );
+
   }
   add_action( 'customize_register', 'themename_customize_register' );
 
