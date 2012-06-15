@@ -30,7 +30,7 @@
     ) ) );
 
   }
-  add_action( 'customize_register', 'themename_customize_register' );
+  add_action( 'customize_register', 'SelfPressed_customize_register' );
 
 
 /***************
