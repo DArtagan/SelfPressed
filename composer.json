@@ -1,0 +1,15 @@
+{
+  "name": "DArtagan/SelfPressed",
+  "type": "wordpress-theme",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "William Weiskopf",
+      "email": "william@weiskopf.me",
+      "homepage": "http://william.weiskopf.me"
+    }
+  ],
+  "require": {
+    "composer/installers": "~1.0"
+  }
+}
